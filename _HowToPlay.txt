@@ -1,0 +1,17 @@
+**How to Play Connect Four**
+
+- Normal rules are applied of course
+
+- When the game starts, enter 1 or 2 to play against a bot or play two player
+
+- When playing a round, enter the column number(1-7). The chip will go to the bottom of the selected column that isn't occupied by a chip('_' will indicate the absence of a chip)
+
+- Some tips on how the semi-smart bot works: 
+	– the bot chooses a random column(that is not full) if it doesn't find a three in the row to interrupt
+        - to check for potential vertical and diagonal connect fours, it looks for any player chips(char 'x') that are three in a row
+	- to check for horizontal connect fours it looks checks every group of four positions for 3 of a player's chips
+	- it's priorities are columns > rows > diagonals
+
+- Have fun!!
+
+**
